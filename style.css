@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  color: black;
+}
+nav {
+  height: 93px;
+  justify-content: right;
+  display: flex;
+}
+nav ul {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+.hypen {
+  color: black;
+}
+nav ul li button {
+  display: flex;
+  border: 0;
+  background: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.left {
+  color: black;
+  display: inline-block;
+  position: relative;
+  left: -50em;
+  top: 32%;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.Home {
+  align-items: center;
+  display: flex;
+  margin: 5% 5%;
+  justify-content: space-around;
+  height: 298px;
+}
+.Home .leftsection {
+  position: relative;
+  left: 0;
+}
+.Home .leftsection h1 {
+  font-size: 35px;
+}
+
+.Home .leftsection p {
+  display: flex;
+  padding: 9px 1px;
+}
+
+.Home .leftsection button {
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.logo {
+  height: 23px;
+  position: inherit;
+}
+
+#github {
+  left: 1.1em;
+}
+
+.tech .stack {
+  position: relative;
+  width: 30%;
+  left: 20.5%;
+  display: flex;
+}
+#tech-stack-name {
+  display: flex;
+  position: relative;
+  top: 1.45rem;
+}
+
+.tech .stack img {
+  height: 1.8rem;
+  margin: 14px;
+  position: relative;
+  left: 1rem;
+}
+
+.projects {
+  height: 20em;
+  background: red;
+}
+.projects div{
+  font-size: 12rem;
+}
+
+.About{
+  height: 12em;
+  background-color: black;
+  position: relative;
+  top:1em;
+}
+
