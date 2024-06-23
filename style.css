@@ -107,6 +107,8 @@ nav ul li button {
   height: 12em;
   position: relative;
   top:1em;
+  background-color: black;
+  justify-content: space-around;
 }
 
 .About div .birth{
