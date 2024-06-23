@@ -105,8 +105,12 @@ nav ul li button {
 
 .About{
   height: 12em;
-  background-color: black;
   position: relative;
   top:1em;
 }
 
+.About div .birth{
+background-color: red;
+height: 20em;
+width: 14em;
+}
