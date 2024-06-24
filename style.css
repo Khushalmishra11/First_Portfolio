@@ -111,9 +111,10 @@ nav ul li button {
   justify-content: space-around;
 }
 
-.About div .birth{
+.About div .school{
 background-color: red;
-height: 20em;
-width: 14em;
+height: 12em;
+width: 20em;
+justify-content: space-around;
 
 }
