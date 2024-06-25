@@ -108,18 +108,14 @@ nav ul li button {
   position: relative;
   top:1em;
   justify-content: space-around;
+  background-color: blue;
 }
 
-.About div .school{
-background-color: red;
-height: 12em;
-width: 25em;
-justify-content: space-around;
-display: flex;
-
-}
-.About div .school ul{
-  justify-content: space-around;
+.About img{
   display: flex;
-  list-style: none;
+  height: 15em;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
+
