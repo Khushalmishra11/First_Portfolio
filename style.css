@@ -107,14 +107,19 @@ nav ul li button {
   height: 12em;
   position: relative;
   top:1em;
-  background-color: black;
   justify-content: space-around;
 }
 
 .About div .school{
 background-color: red;
 height: 12em;
-width: 20em;
+width: 25em;
 justify-content: space-around;
+display: flex;
 
+}
+.About div .school ul{
+  justify-content: space-around;
+  display: flex;
+  list-style: none;
 }
