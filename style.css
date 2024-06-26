@@ -99,23 +99,44 @@ nav ul li button {
   height: 20em;
   background: red;
 }
-.projects div{
+.projects div {
   font-size: 12rem;
 }
 
-.About{
-  height: 12em;
+.About {
+  height: 20em;
   position: relative;
-  top:1em;
-  justify-content: space-around;
+  top: 1em;
   background-color: blue;
-}
-
-.About img{
   display: flex;
-  height: 15em;
-  position: relative;
+  width: 50%;
+  left: 21%;
+}
+.About .flex-content {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
 }
 
+.About div .first {
+  margin: 2px;
+  background-color: brown;
+}
+.About div > .second {
+  margin: 2px;
+  background-color: brown;
+}
+.About .first  img {
+  height: 13em;
+  position: relative;
+  border-color: black;
+  border-radius: 12px;
+  border-width: 12px;
+}
+
+.contact {
+  height: 20em;
+  background-color: lavender;
+  position: relative;
+  top: 3em;
+}
