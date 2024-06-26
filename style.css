@@ -107,24 +107,24 @@ nav ul li button {
   height: 20em;
   position: relative;
   top: 1em;
-  display: flex;
   width: 50%;
   left: 21%;
 }
-.About .flex-content {
+.About .schl-content {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.About div .first {
+.About div .schl-first {
   margin: 2px;
 }
-.About div > .second {
+.About div > .schl-second {
   margin: 2px;
 }
-.About .first img {
-  height: 13em;
+.About .schl-first img {
+  height: 14em;
+  width: 23em;
   position: relative;
   border-color: black;
   border-radius: 12px;
@@ -132,7 +132,34 @@ nav ul li button {
   top: 12px;
 }
 
-.About .second {
+.About .schl-second {
+  position: relative;
+  left: 21px;
+  text-align: center;
+}
+
+.About .cllg-content {
+  display: flex;
+  position: relative;
+  top: 5em;
+}
+
+.About div .cllg-second {
+  margin: 2px;
+}
+.About div .cllg-first {
+  margin: 2px;
+}
+.About .cllg-second img {
+  height: 15.5em;
+  position: relative;
+  border-color: black;
+  border-radius: 12px;
+  border-width: 12px;
+  top: 12px;
+}
+
+.About .cllg-first {
   position: relative;
   left: 21px;
   text-align: center;
@@ -141,6 +168,4 @@ nav ul li button {
 .contact {
   height: 20em;
   background-color: lavender;
-  position: relative;
-  top: 3em;
 }
