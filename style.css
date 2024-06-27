@@ -150,6 +150,12 @@ nav ul li button {
 .About div .cllg-first {
   margin: 2px;
 }
+
+.About .cllg-first {
+  position: relative;
+  text-align: center;
+}
+
 .About .cllg-second img {
   height: 15.5em;
   position: relative;
@@ -157,14 +163,8 @@ nav ul li button {
   border-radius: 12px;
   border-width: 12px;
   top: 12px;
+  left: 7em;
 }
-
-.About .cllg-first {
-  position: relative;
-  left: 21px;
-  text-align: center;
-}
-
 .contact {
   height: 20em;
   background-color: lavender;
