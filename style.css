@@ -126,11 +126,15 @@ nav ul li button {
   height: 14em;
   width: 23em;
   position: relative;
-  border-color: black;
   border-radius: 12px;
   border-width: 12px;
   top: 12px;
 }
+
+.About .schl-second h1{
+  font-size: xx-large;
+}
+
 
 .About .schl-second {
   position: relative;
@@ -149,11 +153,17 @@ nav ul li button {
 }
 .About div .cllg-first {
   margin: 2px;
+  position: relative;
+  top: 1em;
 }
 
 .About .cllg-first {
   position: relative;
   text-align: center;
+}
+
+.About .cllg-first h1{
+  font-size: xx-large;
 }
 
 .About .cllg-second img {
@@ -163,9 +173,6 @@ nav ul li button {
   border-radius: 12px;
   border-width: 12px;
   top: 12px;
-  left: 7em;
+  left: 1em;
 }
-.contact {
-  height: 20em;
-  background-color: lavender;
-}
+
