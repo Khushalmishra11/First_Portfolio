@@ -40,27 +40,27 @@ nav ul li button {
   font-size: 1.4rem;
   font-weight: bold;
 }
-.Home {
+#Home {
   align-items: center;
   display: flex;
   margin: 5% 5%;
   justify-content: space-around;
   height: 298px;
 }
-.Home .leftsection {
+#Home .leftsection {
   position: relative;
   left: 0;
 }
-.Home .leftsection h1 {
+#Home .leftsection h1 {
   font-size: 35px;
 }
 
-.Home .leftsection p {
+#Home .leftsection p {
   display: flex;
   padding: 9px 1px;
 }
 
-.Home .leftsection button {
+#Home .leftsection button {
   border: 0;
   background-color: white;
   cursor: pointer;
@@ -76,9 +76,9 @@ nav ul li button {
   left: 1.1em;
 }
 
-.tech .stack {
+#tech .stack {
   position: relative;
-  width: 30%;
+  width: 35%;
   left: 20.5%;
   display: flex;
 }
@@ -88,41 +88,33 @@ nav ul li button {
   top: 1.45rem;
 }
 
-.tech .stack img {
+#tech .stack img {
   height: 1.8rem;
   margin: 14px;
   position: relative;
   left: 1rem;
 }
 
-.projects {
-  height: 20em;
-  background: red;
-}
-.projects div {
-  font-size: 12rem;
-}
-
-.About {
+#About {
   height: 20em;
   position: relative;
   top: 1em;
   width: 50%;
   left: 21%;
 }
-.About .schl-content {
+#About .schl-content {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.About div .schl-first {
+#About div .schl-first {
   margin: 2px;
 }
-.About div > .schl-second {
+#About div > .schl-second {
   margin: 2px;
 }
-.About .schl-first img {
+#About .schl-first img {
   height: 14em;
   width: 23em;
   position: relative;
@@ -131,42 +123,42 @@ nav ul li button {
   top: 12px;
 }
 
-.About .schl-second h1{
+#About .schl-second h1{
   font-size: xx-large;
 }
 
 
-.About .schl-second {
+#About .schl-second {
   position: relative;
   left: 21px;
   text-align: center;
 }
 
-.About .cllg-content {
+#About .cllg-content {
   display: flex;
   position: relative;
   top: 5em;
 }
 
-.About div .cllg-second {
+#About div .cllg-second {
   margin: 2px;
 }
-.About div .cllg-first {
+#About div .cllg-first {
   margin: 2px;
   position: relative;
   top: 1em;
 }
 
-.About .cllg-first {
+#About .cllg-first {
   position: relative;
   text-align: center;
 }
 
-.About .cllg-first h1{
+#About .cllg-first h1{
   font-size: xx-large;
 }
 
-.About .cllg-second img {
+#About .cllg-second img {
   height: 15.5em;
   position: relative;
   border-color: black;
@@ -176,16 +168,21 @@ nav ul li button {
   left: 1em;
 }
 
-.contact{
+#contact{
   max-width: max-content;
   position: relative;
-  top: 27em;
-  left: 18em;
+  top: 30em;
+  left: 50%;
+  display: flex;
 
 }
-.contact .btn{
-  height: 2px;
+#contact .btn img{
+  height: 1.5em;
+  border: 0;
+  background: white;
+  cursor: pointer;
   position: relative;
-  left: 0%;
+  left: 50%;
+  bo
 
 }
